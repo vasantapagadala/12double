@@ -46,15 +46,10 @@
 <body>
     <div class="container">
         <h3>Add New Expense</h3>
-        <label for="expenseName">Expense Name:</label>
-        <input type="text" id="expenseName" placeholder="Expense Name">
+       
         <label for="expenseName">Expense Name:</label><input type="text" id="expenseName" placeholder="Expense Name">
         <label for="expenseAmount">Amount:</label><input type="number" step="0.01" id="expenseAmount" placeholder="Amount">
-        .btn {
-    color: #000; /* black text */
-    background-color: #fff; /* white background */
-    /* Ensure there is a high contrast between text and background colors */
-}
+        
         <button class="btn" onclick="addExpense()">Add Expense</button>
         <h4>Expenses:</h4>
         <ul id="expensesList"></ul>
